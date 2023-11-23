@@ -1,0 +1,25 @@
+[0.480s] Invoking command in '/home/akito/ros2_ws/build/person_msgs': CMAKE_PREFIX_PATH=/home/akito/ros2_ws/install/mypkg:/opt/ros/foxy /usr/bin/cmake /home/akito/ros2_ws/src/person_msgs -DCMAKE_INSTALL_PREFIX=/home/akito/ros2_ws/install/person_msgs
+[0.491s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.517s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.141s] CMake Error at CMakeLists.txt:20 (find_package):
+[1.141s]   By not providing "Findrosidl_default_generatours.cmake" in
+[1.142s]   CMAKE_MODULE_PATH this project has asked CMake to find a package
+[1.142s]   configuration file provided by "rosidl_default_generatours", but CMake did
+[1.142s]   not find one.
+[1.142s] 
+[1.142s]   Could not find a package configuration file provided by
+[1.142s]   "rosidl_default_generatours" with any of the following names:
+[1.143s] 
+[1.143s]     rosidl_default_generatoursConfig.cmake
+[1.143s]     rosidl_default_generatours-config.cmake
+[1.144s] 
+[1.144s]   Add the installation prefix of "rosidl_default_generatours" to
+[1.144s]   CMAKE_PREFIX_PATH or set "rosidl_default_generatours_DIR" to a directory
+[1.144s]   containing one of the above files.  If "rosidl_default_generatours"
+[1.145s]   provides a separate development package or SDK, be sure it has been
+[1.145s]   installed.
+[1.145s] 
+[1.146s] 
+[1.146s] -- Configuring incomplete, errors occurred!
+[1.146s] See also "/home/akito/ros2_ws/build/person_msgs/CMakeFiles/CMakeOutput.log".
+[1.148s] Invoked command in '/home/akito/ros2_ws/build/person_msgs' returned '1': CMAKE_PREFIX_PATH=/home/akito/ros2_ws/install/mypkg:/opt/ros/foxy /usr/bin/cmake /home/akito/ros2_ws/src/person_msgs -DCMAKE_INSTALL_PREFIX=/home/akito/ros2_ws/install/person_msgs
